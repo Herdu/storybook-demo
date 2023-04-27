@@ -8,4 +8,5 @@ import { UiUserDetails } from "./user-details.interface";
 })
 export class UserDetailsComponent {
   @Input() user?: UiUserDetails;
+  @Input() notificationCount = 0;
 }
